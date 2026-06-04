@@ -1,6 +1,7 @@
 .p{
     border: 4px;
-    color: cadetblue;
+ border-color:  cadetblue;
+    border-radius: 4px;
 }
 .h1{
     border: 4px;
