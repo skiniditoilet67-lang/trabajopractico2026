@@ -4,13 +4,13 @@ let num1=10
 let suma=num1+num1
 alert ("el resultado de la suma es: " + suma)
 //resta
-let num1=5
+ num1=5
 let num2=2
 let resta=num1-num2
 alert ("el resultado de la resta: " + resta)
 //division
-let num1=5
-let num2=5
+ num1=5
+  num2=5
 let division=num1/num2
 console.log ("El resultado de la division es: " + division)
 //multiplicacion
