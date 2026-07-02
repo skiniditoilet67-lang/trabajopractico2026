@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+p{
+    font-size: 20px;
+}
+button{
+    border: none;
+    background-color: lawngreen;
+    color: black;
+    border-radius: 17px;
+    padding: 10px;
+    
+}
+.button:hover{
+    transition: all;
+    transform: rotate(500dg);
+}
