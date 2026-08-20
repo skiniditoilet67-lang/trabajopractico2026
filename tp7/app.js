@@ -35,10 +35,10 @@ boton2.onclick = function () {
     }
 }
 boton3.onclick = function () {
-    if ((nombreusuario2 == "marcos") || (nombreUsuario == "nahuel")) {
-        parrafo3.textContent = "Bienvenido" + nombreUsuario + "¿cómo estás?"
+    if ((nombreUsuario2 == "marcos") || (nombreUsuario2 == "nahuel")) {
+        parrafo3.textContent = "Bienvenido," + " " + nombreUsuario + " " + "¿cómo estás?"
     } else {
-        parrafo3.textContent = "Bienvenido" + nombreUsuario
+        parrafo3.textContent = "Bienvenido, " + nombreUsuario
     }
 }
 boton4.onclick = function () {
@@ -71,7 +71,7 @@ boton6.onclick = function (){
     }
 }
 boton7.onclick = function (){
-    if (contraseña == "secreto"){
+    if (contrasenia == "secreto"){
     parrafo7.textContent = "acceso concedido"
 } else {
     parrafo7.textContent = "acceso denegado"
